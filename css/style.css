@@ -97,6 +97,7 @@ a {
 
 #showcase .container {
     max-width: 1080px;
+    margin: auto;
     padding-top: 500px;
 }
 
