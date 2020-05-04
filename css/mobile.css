@@ -3,10 +3,9 @@
     content: "";
     display: block;
     height: 350px;
-    margin: -60px 0 0;
 }
 
-/* Navabar Section */
+/* Navbar Section */
 #nav-bar {
     display: flex;
     flex-direction: column;
@@ -71,9 +70,6 @@
     max-width: 100%;
 }
 
-#how h1 {
-    font-size: 1.5rem;
-}
 /* Pricing Section */
 #boxes {
     flex-direction: column;
@@ -83,4 +79,11 @@
 #boxes .box {
     max-width: 300px;
     margin-bottom: 0;
+}
+
+/* h1 size */
+#how h1,
+#features h1,
+#pricing h1 {
+    font-size: 1.5rem;
 }
