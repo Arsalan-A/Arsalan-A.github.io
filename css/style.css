@@ -26,7 +26,6 @@ body {
     content: "";
     display: block;
     height: 150px;
-    margin: -60px 0 0;
 }
 
 body {
@@ -136,6 +135,12 @@ a {
 
 
 /* FEATURE SECTION */
+#features h1{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color)
+}
+
 #items {
     display: flex;
     flex-direction: column;
@@ -173,7 +178,13 @@ a {
 #how img {
     max-width: 100%;
 }
+
 /* Pricing Section */
+#pricing h1{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color)
+}
 #boxes {
     display: flex;
     justify-content: space-between;
